@@ -1,0 +1,5 @@
+resource "aws_key_pair" "vm_ssh_key" {
+key_name = "john.007-vm-key"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzF/t0kJLzFpHyDpWVIOPaedpZbcRbhCoz/MWo4f2J1Fi5mJCjnlCWUUjFUXbYkAuj0FQgDdFTzgL14y12UafM+z8A8TzkLXmtjQLOmWzzxgZ1hVV5cSdDqXfVKuREmJ8tn5+I1MFi9HRhkZarquVidHVapIaFvsBtTzukR7ccIB/NB4Fmo4MeL2MpnocVL26Yj35/RtJQH8ie3GBzpG3RoNWoIXbE64acfypJPzYohO3d//lb8Dt17mxsFjxHn6HeZXpWwX5WiA2etZOUddW+kg8wEE1gfk/D5f5IsF16aMMiD1P93QositFRWOLx5loF9BiZwvHdHRgyNSZLONVVDz+ouDTbOvpRRDs4krYjwYv0i1ffySlEZbaeMKus0er7/O6532qeDILsFS/HzX6s72pMarMJ2aniwXxCK8lFO1ckMojuv1dHSM0trujCtdzRTs7v5rygEh2E4CAFdM+YdyvQKOQwjPPXKEbVGGwr2+8Kuh+Fvl1kIu0sqyfc/sE= ubuntu@ip-172-31-33-237"
+}
+
